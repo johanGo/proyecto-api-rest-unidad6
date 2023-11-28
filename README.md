@@ -175,7 +175,7 @@ Eliminar paciente
 > :warning: **Aviso**: para poder crear registros de doctores, se debe tener registros en la tabla se especialidades .
 
 Obtener todos los doctores
-![Obtener todos los doctores!](./src/img/doctores-img/obtner%20doctores.jfif)<br>
+![Obtener todos los doctores!](./src/img/doctores-img/obtener%20doctores.jpeg)<br>
 
 Obtener todos los doctores con citas programadas
 ![Obtener todos los doctores con citas programadas!](./src/img/doctores-img/obtener%20doctores%20con%20citas.jpeg)
