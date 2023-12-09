@@ -1,4 +1,4 @@
-# Proyecto API REST Módulo 6
+# Proyecto API REST con NodeJS Módulo 6
 ---
 ## Topics :memo:
 
@@ -84,16 +84,16 @@ npx tsc --init
     "emitDecoratorMetadata": true,
 }
 ```
-11. Dentro de la carpeta del repositoro clonado, crear un archivo '.env' con las siguientes variables:
+11. Dentro de la carpeta del repositorio clonado, crear un archivo '.env' con las siguientes variables:
 
 ![archivo .env con las variables de entorno!](./src/img/img-variablesDeEntorno.jpeg)
 
 
-11. Ir a la terminal de MySQL o al Workbench y ejecutar el siguiente query:
+12. Ir a la terminal de MySQL o al Workbench y ejecutar el siguiente query:
 ```sh
 create database eps;
 ```
-12. Iniciar el servidor
+13. Iniciar el servidor
 ```sh
 npm run dev
 ```
