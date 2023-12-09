@@ -46,8 +46,8 @@ npm --version
 ```
 4. Clonar este repositorio 
 ```sh
-git clone https://github.com/su usuario/basic_api_rest.git
-cd basic_api_rest
+git clone https://github.com/johanGo/proyecto-api-rest-unidad6
+cd proyecto-api-rest-unidad6
 ```
 5. Inicializar un proyecto con `npm`
 ```sh
@@ -72,7 +72,7 @@ npm i @types/body-parser @types/cors @types/dotenv @types/express @types/mysql @
 ```sh
 npx tsc --init
 ```
-8. Configura las opciones del compilador de TypeScript en tu archivo `tsconfig.json`:
+10. Configura las opciones del compilador de TypeScript en tu archivo `tsconfig.json`:
 ```json
 "compilerOptions": {
     "target": "es6",   
@@ -84,11 +84,16 @@ npx tsc --init
     "emitDecoratorMetadata": true,
 }
 ```
-7. Ir a la terminal de MySQL o al Workbench y ejecutar el siguiente query:
+11. Dentro de la carpeta del repositoro clonado, crear un archivo '.env' con las siguientes variables:
+
+![archivo .env con las variables de entorno!](./src/img/img-variablesDeEntorno.jpeg)
+
+
+11. Ir a la terminal de MySQL o al Workbench y ejecutar el siguiente query:
 ```sh
 create database eps;
 ```
-8. Iniciar el servidor
+12. Iniciar el servidor
 ```sh
 npm run dev
 ```

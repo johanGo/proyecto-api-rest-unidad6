@@ -52,6 +52,6 @@ connection.sync()
 
 //iniciar el servidor
 app.listen(process.env.port,()=>{
-    console.log("Servidor iniciado")
+    console.log(`Servidor iniciado el puero ${process.env.PORT}`)
 })
 
