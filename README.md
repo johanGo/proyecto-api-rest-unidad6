@@ -6,8 +6,8 @@
 
 1. Contexto de la API
 2. Tecnologías empleadas.
-3. Pasos para la instalación y uso de la API.
-4. Estructuración de la base de datos.
+3. Estructuración de la base de datos.
+4. Pasos para la instalación y uso de la API.
 5. EndPoints de la API.
 6. Pruebas de la API
 7. Desarrolladores.
