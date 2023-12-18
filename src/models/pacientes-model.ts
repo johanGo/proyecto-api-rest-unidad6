@@ -32,6 +32,11 @@ export class Pacientes extends Model{
     })
     fecha_nac!: Date
 
+    @Column({
+        type: DataType.INTEGER
+    })
+    edad!:Number
+
     @HasMany(()=> Citas)
     citas!: Citas
 

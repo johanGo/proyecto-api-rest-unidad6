@@ -148,6 +148,7 @@ Para el sistema creamos los siguientes Endpoints:
 | `post` | `/api/citas` | Crear citas |
 | `put` | `/api/citas/id` | Actualizar los datos de la cita |
 | `delete` | `/api/citas/id` | Eliminar el registro de la cita |
+
 # 6. Pruebas de la API
 ---
 Para cuestion de nuestras pruebas, usamos la extension de Visual Studio Code `Thunder Client`
